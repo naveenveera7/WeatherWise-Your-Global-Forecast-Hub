@@ -1,0 +1,137 @@
+body{
+    background-image: url('https://th.bing.com/th/id/OIP.Dw7n43kgf3pbpy80tgXrFgHaEK?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.top{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+#search{
+    margin: 20px;
+    margin-right: 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    outline: none;
+    height: 5vh;
+    width: 18vw;
+    float: left;
+    /* border-right: none; */
+    /* border-top-right-radius: 0;
+    border-bottom-right-radius: 0; */
+    
+}
+/* #add{
+    margin: 0;
+    margin-top: 20px;
+    float: left;
+    border:1px solid black;
+    border-left: none;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height:5.6vh;
+    width:25px;
+    font-weight:600;
+    background-color: aqua;
+} */
+#sel{
+    height: 4vh;
+    outline: none;
+    border:none;
+    border-radius:4px ;
+    background-color: transparent;
+    font-size: medium;
+    margin: 30px;
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-left: 20%;
+    gap: 10%;
+}
+.details{
+    border-radius: 8px;
+    width: 25%;
+    background:linear-gradient(to bottom right,violet,skyblue,rgb(140, 233, 239),whitesmoke);
+    box-shadow: 0px 4px 8px 0px rgb(32, 32, 32);
+    padding: 10px;
+}
+.ldetails{
+    border-radius: 8px;
+    width:25%;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgb(32, 32, 32);
+    padding: 10px;
+}
+#cityname, #lcityname{
+    margin: 0;
+}
+
+#temp span{
+    margin-left: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#ltemp span{
+    margin-left: 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+img{
+    height: 13vh;
+    width: 6vw;
+    filter:contrast(1);
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    margin:20px;
+    text-align: left;
+    color: #04214c;
+}
+span{
+    margin: 10px;
+    color: rgb(12, 5, 5);
+}
+@media screen and (max-width:900px){
+    .box{
+        display: grid;
+        justify-content: center;
+        margin: 10px;
+        gap: 5%;
+    }
+    img{
+        height: 5vh;
+        width: 6vw;
+        filter:contrast(1);
+    }
+    #temp span {
+        margin-left: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    #ltemp span {
+        margin-left: 0;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .details{
+        width: 90%;
+    }
+    .ldetails{
+        width: 90%;
+    }
+
+}
